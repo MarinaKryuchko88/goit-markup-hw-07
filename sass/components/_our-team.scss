@@ -1,0 +1,90 @@
+.our-team .icon {
+  width: 20px;
+  height: 20px;
+  fill: $icon-color;
+}
+
+.our-team .social-link:hover,
+.our-team .social-link:focus {
+  background-color: $accent-color;
+}
+
+.our-team .social-link:hover .icon,
+.our-team .social-link:focus .icon {
+  fill: #fff;
+}
+
+.our-team .list-icon {
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+.our-team .item {
+  width: calc((100%-30px * 3) / 4);
+  background: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 428px;
+}
+
+.our-team .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-team .title {
+  margin: 0;
+}
+
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: $background-color;
+}
+
+.our-team .list {
+  margin-top: 50px;
+}
+
+.our-team .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $title-color;
+}
+
+.our-team .paragraf {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.our-team .title-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-link {
+  display: flex;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $main-color;
+  fill: $icon-color;
+
+  /* свойства анимации */
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

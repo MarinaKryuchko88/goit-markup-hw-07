@@ -1,0 +1,159 @@
+.section-footer .title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  margin-bottom: 20px;
+}
+
+.section-footer .list-icon {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.section-footer .social-link {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.section-footer .icon {
+  fill: #ffffff;
+}
+
+.section-footer .blok-links {
+  width: 206px;
+
+  margin: 0;
+  margin-right: 93px;
+}
+
+.section-footer .social-link:hover,
+.section-footer .social-link:focus {
+  background-color: $accent-color;
+}
+
+.section-footer .social-link:hover .icon,
+.section-footer .social-link:focus .icon {
+  fill: #fff;
+}
+
+.section-footer .container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: baseline;
+}
+
+.section-footer .address-footer {
+  margin-bottom: 9px;
+}
+
+.section-footer .logo {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.logo-footer,
+.address-footer,
+.links-footer .link {
+  color: $main-color;
+}
+
+.section-footer {
+  background-color: $secondary-color;
+}
+
+.links-footer :hover,
+.links-footer :focus {
+  color: $accent-color;
+}
+
+.address-footer,
+.links-footer {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.links-footer .contact:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.section-footer .blok-address {
+  margin-right: 70px;
+}
+
+/* ФОРМА ДЛЯ ПОДПИСКИ */
+
+.mailing .appeal {
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $main-color;
+}
+
+.mailing .input::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  display: flex;
+  align-items: center;
+}
+
+.mailing .input {
+  width: 360px;
+  height: 50px;
+  padding: 0px;
+  padding-left: 16px;
+  color: $main-color;
+
+  background-color: $secondary-color;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  margin-right: 12px;
+}
+
+.mailing .subscribe {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: $main-color;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 50px;
+  background: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0;
+
+  cursor: pointer;
+}
+
+.mailing .icon {
+  width: 24px;
+  height: 24px;
+
+  margin-left: 10px;
+}
+
+.mailing .input-button {
+  margin-top: 20px;
+}

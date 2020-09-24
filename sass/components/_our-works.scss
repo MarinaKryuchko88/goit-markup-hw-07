@@ -1,0 +1,57 @@
+.our-work .description {
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  height: 70px;
+
+  margin: 0;
+}
+
+.our-work .description-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.our-work .blok {
+  position: relative;
+}
+
+.our-work {
+  padding-top: 94px;
+}
+
+.our-work {
+  padding-bottom: 94px;
+}
+
+.our-work .title {
+  margin: 0px;
+}
+
+.our-work .list {
+  margin-top: 50px;
+}
+
+.our-work .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-work .title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $title-color;
+}
