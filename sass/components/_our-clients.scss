@@ -1,14 +1,35 @@
-.our-clients .list-clients {
-  list-style: none;
-  padding: 0;
-  margin: 0;
+.our-clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  & .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: $title-color;
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  & .list-clients {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  & .blok-client:not(:last-child) {
+    margin-right: 30px;
+  }
+  & .icon-client {
+    fill: $icon-color;
+
+    /* свойства анимации */
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
-.our-clients .blok-client:not(:last-child) {
-  margin-right: 30px;
-}
-
-.our-clients .link-client {
+.link-client {
   display: flex;
   width: 170px;
   height: 90px;
@@ -21,41 +42,13 @@
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.our-clients .title {
-  margin-top: 0;
-  margin-bottom: 50px;
-}
-
-.our-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.our-clients .icon-client {
-  fill: $icon-color;
-
-  /* свойства анимации */
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-clients .link-client:hover .icon-client,
-.our-clients .link-client:focus .icon-client {
-  fill: $accent-color;
-}
-
-.our-clients .link-client:hover,
-.our-clients .link-client:focus {
-  border: 1px solid $accent-color;
-}
-
-.our-clients .title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: $title-color;
+  &:hover .icon-client,
+  &:focus .icon-client {
+    fill: $accent-color;
+  }
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 }

@@ -1,44 +1,35 @@
-.features .icon {
-  width: 70px;
-  height: 70px;
-}
-
-.features .item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features .paragraf {
-  margin: 0;
-}
-
-.features .title-text {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 .features {
   padding-top: 94px;
-}
+  & .item:not(:last-child) {
+    margin-right: 30px;
+  }
+  & .icon {
+    width: 70px;
+    height: 70px;
+  }
+  & .title-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 
-.features .title-text {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-}
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  & .paragraf {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
 
-.features .paragraf {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
-}
-
-.blok-icon {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 100px;
-  padding-left: 100px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
+    margin: 0;
+  }
+  & .blok-icon {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+  }
 }
