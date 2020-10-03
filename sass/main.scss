@@ -3,17 +3,16 @@
 @import "./utils/normalize";
 @import "./base/common";
 @import "./components/logo";
-
+@import "./components/header";
 @import "./components/hero";
+@import "./components/features";
+@import "./components/our-works";
+@import "./components/our-team";
+@import "./components/our-clients";
+@import "./components/modal";
 @import "./components/filters";
 @import "./components/gallery";
-@import "./components/modal";
-@import "./components/our-clients";
-@import "./components/our-team";
-@import "./components/our-works";
-@import "./components/features";
 @import "./components/footer";
-@import "./components/header";
 
 /* Ширина контейнера всей страницы 1170px + по 15рх с обеих сторон (паддинг страницы) = 1200рх*/
 /* поставить свойство outline: 2рх solid grey в каждый блок, чтобы при верстке визуально можно было определить правильно ли я делаю отступы, эта рамка не входит в геометрию. */
